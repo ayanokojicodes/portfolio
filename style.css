@@ -452,7 +452,7 @@ nav .fas {
     }
 
     nav ul.show {
-        transform: translateX(0);
+        transform: translateX(200px);
         /* Show the menu when 'show' class is applied */
     }
 
