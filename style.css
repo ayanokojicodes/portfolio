@@ -395,10 +395,12 @@ nav .fas {
         background: #b54768;
         position: fixed;
         top: 0;
-        width: 200;
+        width: 200px;
         right: 0;
         height: 100vh;
         padding-top: 50px;
+        transform: translateX(200px);
+        transition: transform 0.3s ease-in-out;
     }
 
     nav ul li {
