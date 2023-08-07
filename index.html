@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e674bba739.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/ac.jpg" class="logo"></img>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times"></i>
+                </ul>
+                <i class="fas fa-bars"></i>
+            </nav>
+            <div class="header-text">
+                <p>Programmer</p>
+                <h1>Hi, I'm <span>Kiyotaka</span><br>Ayanokoji</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ----------ABOUT---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/ayanokoji.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I am a highly skilled and innovative programmer with a passion for creating elegant and efficient solutions to complex challenges. With a keen eye for detail and a deep understanding of programming languages and technologies, I consistently deliver high-quality software projects that exceed expectations. My problem-solving abilities shine through as I approach each project with a strategic mindset, breaking down intricate problems into manageable components and crafting comprehensive, well-structured code. My dedication to continuous learning keeps me at the forefront of industry trends, allowing me to leverage cutting-edge tools and techniques to create modern, scalable, and robust software applications. My strong communication skills and collaborative nature make me a valuable asset to any development team, as I excel in both individual contributions and cooperative efforts. My exceptional programming acumen, combined with my passion for pushing the boundaries of technology, make me a standout programmer who consistently delivers exceptional results in the ever-evolving landscape of software development.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Communication</span><br>Knows English, Hindi, Japanese, Malayalam, Tamil</li>
+                            <li><span>Web Development</span><br>HTML5 - CSS3 - Javascript - PHP</li>
+                            <li><span>Languages</span><br> C - C++ - Java - Python - Javascript - Assembly - Ruby</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Metasploit Unleased from OffSec</li>
+                            <li><span>2023</span><br>DCP from CSC Kulasekharam</li>
+                            <li><span>2022</span><br>Sun JAVA and Basic Python from CSC Kulasekharam</li>
+                            <li><span>2022</span><br>BSc. in Computer Science from NMCC Marthandam</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------SERVICES---------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fab fa-dev"></i>
+                    <h2>Programming Expertise</h2>
+                    <p>I offer a wide range of programming services, covering various languages and technologies. From designing algorithms to implementing complex logic, I excel at developing efficient and reliable code. Whether it's creating desktop applications, mobile apps, or scripting tools, my programming skills ensure top-notch solutions that meet your specific needs.</p>
+                    <a href="https://en.wikipedia.org/wiki/Programmer" style="color: blue;">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>As a web developer, I specialize in crafting dynamic and visually appealing websites. I am proficient in HTML, CSS, JavaScript, and other web technologies. From responsive design to interactive user interfaces, I create engaging web experiences that captivate users and drive business growth. Whether you need a static portfolio site or a full-fledged e-commerce platform, I have the expertise to deliver.</p>
+                    <a href="https://en.wikipedia.org/wiki/Web_development" style="color: blue;">Learn more</a>
+
+                </div>
+                <div>
+
+                    <i class="fas fa-user-secret"></i>
+                    <h2>Ethical Hacking</h2>
+                    <p>With a strong background in ethical hacking and cybersecurity, I provide comprehensive security assessments for your digital assets. From vulnerability assessments to penetration testing, I help identify and address potential security risks in your systems. I am dedicated to ensuring your digital infrastructure remains robust and secure, implementing advanced security measures to safeguard against potential threats.</p>
+                    <a href="https://en.wikipedia.org/wiki/White_hat_(computer_security)" style="color: blue;">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------PORTFOLIO--------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">Gallery</h1>
+                <div class="work">
+                    <center>
+                        <div><a href="https://in.pinterest.com/Avoidkun/ayanokoji/" target="_blank"><img src="images/ayanokojigallery.jpg" width="400" height="225"></a><br>Images</div>
+                        <div><a href="https://youtube.com/playlist?list=PLDPPbk_jnBdiD1VyRc9yMVJ6zz-EPQTvd" target="_blank"><img src="images/ayanokojivideo.jpg" width="400" height="225"></a><br>Videos</div>
+                    </center>
+                </div>
+            <a href="https://you-zitsu.fandom.com/wiki/Kiyotaka_Ayanok%C5%8Dji" target="_blank" class="btn">See more</a>
+        </div>
+    </div>
+
+    <!-- ----------CONTACT---------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-envelope-open"></i> ayanokojicodes@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i> 1234567890</p>
+                    <div class="social-icons">
+                        <a href="https://www.github.com/ayanokojicodes" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.twitter.com/ayanokojicodes" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/ayanokojicodes" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/kiyotaka-ayanokoji-0b84a4287" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="mycv.txt" download class="btn btn2" target="_blank">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn3">submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        var tabLinks = document.getElementsByClassName('tab-links');
+        var tabContents = document.getElementsByClassName('tab-contents');
+
+        function openTab(tabName) {
+            for (tabLink of tabLinks) {
+                tabLink.classList.remove('active-link');
+            }
+            for (tabContent of tabContents) {
+                tabContent.classList.remove('active-tab');
+            }
+            event.currentTarget.classList.add('active-link');
+            document.getElementById(tabName).classList.add('active-tab');
+        }
+
+        // JavaScript for handling the mobile navigation menu
+        document.querySelector('.fas.fa-bars').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        document.querySelector('.fas.fa-times').addEventListener('click', function () {
+            document.querySelector('nav ul').classList.remove('show');
+        });
+
+    </script>
+</body>
+
+</html>

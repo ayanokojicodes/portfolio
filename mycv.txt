@@ -1,0 +1,34 @@
+Kiyotaka Ayanokoji
+Programmer | Web Developer | Ethical Hacker
+Email: ayanokojicodes@gmail.com | Phone: 1234567890
+GitHub: https://www.github.com/ayanokojicodes
+Twitter: https://www.twitter.com/ayanokojicodes
+Instagram: https://www.instagram.com/ayanokojicodes
+LinkedIn: https://www.linkedin.com/in/kiyotaka-ayanokoji-0b84a4287
+
+Summary:
+I am a highly skilled and innovative programmer with a passion for creating elegant and efficient solutions to complex challenges. My problem-solving abilities shine through as I approach each project with a strategic mindset, breaking down intricate problems into manageable components and crafting comprehensive, well-structured code. With expertise in web development and ethical hacking, I deliver top-notch software projects that exceed expectations.
+
+Skills:
+- Communication: Proficient in English, Hindi, Japanese, Malayalam, Tamil
+- Web Development: HTML5, CSS3, JavaScript, PHP
+- Languages: C, C++, Java, Python, JavaScript, Assembly, Ruby
+
+Education:
+- Metasploit Unleashed from OffSec (2023)
+- DCP from CSC Kulasekharam (2023)
+- Sun JAVA and Basic Python from CSC Kulasekharam (2022)
+- BSc. in Computer Science from NMCC Marthandam (2022)
+
+Experience:
+- Web Development: Proficient in crafting dynamic and visually appealing websites using HTML, CSS, and JavaScript. Skilled in responsive design and interactive user interfaces.
+- Programming Expertise: Highly skilled in various programming languages, including C, C++, Java, Python, and Ruby. Proficient in designing algorithms and implementing complex logic.
+- Ethical Hacking: Strong background in cybersecurity and ethical hacking. Experienced in conducting vulnerability assessments and penetration testing to identify and address security risks.
+
+Portfolio:
+- GitHub: https://www.github.com/ayanokojicodes
+- Portfolio Website: [Your Portfolio Website URL]
+
+Contact:
+Email: ayanokojicodes@gmail.com
+Phone: 1234567890
